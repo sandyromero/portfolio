@@ -1,0 +1,27 @@
+
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
+*.container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 180px;
+    padding: 30px;
+    position: relative;
+    background: rgba(82, 82, 82, 0.5);
+    color: #ffffff;
+  }
+
+
+  /* Responsive iPhone 6++ ============================================================== */
+  
+  @media screen and (max-width:476px) {
+      .container {
+        margin-top: 100px;
+      }
+  }
