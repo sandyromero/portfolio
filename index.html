@@ -8,77 +8,89 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!--CSS Style-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <title>Sandra Romero</title>
 </head>
 <body>
 
+    <nav class="navbar navbar-expand-lg" id="nav">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <a class="navbar-brand" href="index.html" id="logo" style="color: white;"> <h1> SANDRA ROMERO</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html" style="color: white; font-size: 20px;">About</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="portfolio.html" style="color: white; font-size: 20px;">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html" style="color: white; font-size: 20px;">Contact</a>
+            </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </nav>
+    <!-- End of navbar -->
 
+  
 
-    <div class="jumbotron">
+    <!--Main Content-->
 
-        <nav class="navbar navbar-expand-lg">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <a class="navbar-brand" href="index.html" id="logo" style="color: white;"> <h1> Sandra Romero</h1></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html" style="color: white; font-size: 20px;">About</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="portfolio.html" style="color: white; font-size: 20px;">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html" style="color: white; font-size: 20px;">Contact</a>
-                </li>
-                </ul>
+    <!-- Portfoilio===============================================================================================================-->
+    <div class="row" id="row1">
+        <div class="col-sm-12 col-md-6" id="web-dev">
+            <div>
+                <H1 class="portfolio">Web Development</H1>
             </div>
-            <!-- /.navbar-collapse -->
-        </nav>
-        <!-- End of navbar -->
+        </div>            
+        
+        <div class="col-sm-12 col-md-6" id="graphic">
+            <div>
+                <H1 class="portfolio">Graphic Design</H1>
+            </div>
+        </div>
 
     </div>
 
-    <!--Main Content-->
-    <main class="container">
-
-        <!--About Section-->
-        <section class="row" id="row1">
-            <div class="col-md-12">
-                <article class="block">
-                    <h1 class="block-header">About Me</h1>
-                    <hr/>
-                    <img src="assets/images/sandraRomero.jpg" alt="sandra romero" id="about-image" height="300px"/>
-                    <p>I obtained my Bachelor of Arts in Film and Digital Media with a concentration in Video Production at the University of California, Santa Cruz.
-                      <br>
-                      <br>
-                      I became more interested in graphic design after taking design courses my senior year. Immediately after graduating, I started my part-time business as a graphic designer working with clients such as Central Coast Oncology and Hematology in Santa Cruz.
-                      <br>
-                      <br>
-                      Thereafter, I moved to Los Angeles to work as a video editor and producer for a small online tech company. During this time, I had the opportunity to produce work for fortune 500 companies such as Los Angeles Metro, Wells Fargo Center, and Los Angeles World Airports in addition to traveling to New York City and Chicago to produce video work.
-                      <br>
-                      <br>
-                      Most recently, I've returned to my hometown in Porterville, California where I continue to work as a freelance graphic designer close to friends and family. I want to learn web development and coding to compliment my design skills as well as gain the confidence to not shy away from web work.
-                    </p>
-                  </article>
-            </div>
-        </section>
-
-    </main>
+    <!--About Section==========================================================================================================-->
+    <section class="row" id="row2">
+        <div class="col-md-12">
+            <article class="block">
+                <h1 class="block-header">About Me</h1>
+                <hr/>
+                <img src="assets/images/sandraRomero.jpg" alt="sandra romero" id="about-image" height="300px"/>
+                <p style="font-family: Arial, Helvetica, sans-serif;">I obtained my Bachelor of Arts in Film and Digital Media with a concentration in Video Production at the University of California, Santa Cruz.
+                    <br>
+                    <br>
+                    I became more interested in graphic design after taking design courses my senior year. Immediately after graduating, I started my part-time business as a graphic designer working with clients such as Central Coast Oncology and Hematology in Santa Cruz.
+                    <br>
+                    <br>
+                    Thereafter, I moved to Los Angeles to work as a video editor and producer for a small online tech company. During this time, I had the opportunity to produce work for fortune 500 companies such as Los Angeles Metro, Wells Fargo Center, and Los Angeles World Airports in addition to traveling to New York City and Chicago to produce video work.
+                    <br>
+                    <br>
+                    Most recently, I've returned to my hometown in Porterville, California where I continue to work as a freelance graphic designer close to friends and family. I want to learn web development and coding to compliment my design skills as well as gain the confidence to not shy away from web work.
+                </p>
+                </article>
+        </div>
+    </section>
 
     <footer class="footer">
         <div class="two-toned-footer-color"></div>
         <p class="text-muted text-muted-footer text-center">
           &copy; Copyright 2020
         </p>
-      </footer>
+    </footer>
 
 
 
-    
+      <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </body>
 </html>

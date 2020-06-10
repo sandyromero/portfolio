@@ -1,3 +1,14 @@
 body {
     background-image: url("../images/bg.jpg");
 }
+
+.jumbotron{
+    color: #ffffff;
+    background-color: rgba(39, 39, 39, 0.829);
+    box-shadow: 2px 2px 30px #333333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 0;
+    height: 80px;
+  }
+
+  
