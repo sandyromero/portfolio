@@ -30,7 +30,6 @@ li:hover {
     padding-right: 120px;
 }
 
-
 .portfolio {
     padding-top: 60px;
     text-align: center;
@@ -45,7 +44,6 @@ li:hover {
 .block-header {
 font-family: 'Playfair Display', serif;
 font-weight: bold;
-padding: 10px;
 }
 
 #row2 {
@@ -59,10 +57,18 @@ padding: 10px;
     padding-top: 20px;
 }
 
+/*Contact===================================================================================*/
+#myVideo {
+    z-index: 1;
+    min-width: 100%; 
+    margin-bottom: -960px;
+  }
 
 
-
-
+  /* footer*============================*/
+  footer {
+      margin-top: -150px;
+  }
 
 /* Style for Web Development Page ============================================================*/
 
