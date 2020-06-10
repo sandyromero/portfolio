@@ -24,10 +24,10 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item">
-                <a class="nav-link" href="index.html" style="color: white; font-size: 20px;">About</a>
+                <a class="nav-link" href="#row2" style="color: white; font-size: 20px;">About</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="portfolio.html" style="color: white; font-size: 20px;">Portfolio</a>
+                <a class="nav-link" href="index.html" style="color: white; font-size: 20px;">Portfolio</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="contact.html" style="color: white; font-size: 20px;">Contact</a>
@@ -43,6 +43,8 @@
     <!--Main Content-->
 
     <!-- Portfoilio===============================================================================================================-->
+
+    
     <div class="row" id="row1">
         <div class="col-sm-12 col-md-6" id="web-dev">
             <div>
@@ -58,34 +60,79 @@
 
     </div>
 
+
     <!--About Section==========================================================================================================-->
     <section class="row" id="row2">
-        <div class="col-md-12">
-            <article class="block">
+        <div class="col-lg-2">
                 <h1 class="block-header">About Me</h1>
                 <hr/>
                 <img src="assets/images/sandraRomero.jpg" alt="sandra romero" id="about-image" height="300px"/>
-                <p style="font-family: Arial, Helvetica, sans-serif;">I obtained my Bachelor of Arts in Film and Digital Media with a concentration in Video Production at the University of California, Santa Cruz.
-                    <br>
-                    <br>
-                    I became more interested in graphic design after taking design courses my senior year. Immediately after graduating, I started my part-time business as a graphic designer working with clients such as Central Coast Oncology and Hematology in Santa Cruz.
-                    <br>
-                    <br>
-                    Thereafter, I moved to Los Angeles to work as a video editor and producer for a small online tech company. During this time, I had the opportunity to produce work for fortune 500 companies such as Los Angeles Metro, Wells Fargo Center, and Los Angeles World Airports in addition to traveling to New York City and Chicago to produce video work.
-                    <br>
-                    <br>
-                    Most recently, I've returned to my hometown in Porterville, California where I continue to work as a freelance graphic designer close to friends and family. I want to learn web development and coding to compliment my design skills as well as gain the confidence to not shy away from web work.
-                </p>
-                </article>
+        </div>
+        <div class="col-lg-12" id="bio">
+            <p style="font-family: Arial, Helvetica, sans-serif;">I obtained my Bachelor of Arts in Film and Digital Media with a concentration in Video Production at the University of California, Santa Cruz.
+                <br>
+                <br>
+                I became more interested in graphic design after taking design courses my senior year. Immediately after graduating, I started my part-time business as a graphic designer working with clients such as Central Coast Oncology and Hematology in Santa Cruz.
+                <br>
+                <br>
+                Thereafter, I moved to Los Angeles to work as a video editor and producer for a small online tech company. During this time, I had the opportunity to produce work for fortune 500 companies such as Los Angeles Metro, Wells Fargo Center, and Los Angeles World Airports in addition to traveling to New York City and Chicago to produce video work.
+                <br>
+                <br>
+                Most recently, I've returned to my hometown in Porterville, California where I continue to work as a freelance graphic designer close to friends and family. I want to learn web development and coding to compliment my design skills as well as gain the confidence to not shy away from web work.
+            </p>
         </div>
     </section>
 
+    <!--Contact==========================================================================================================-->
+
+    <video autoplay muted loop id="myVideo">
+        <source src="https://carbon-media.accelerator.net/00000000001/20WP41HXqYAfML8287GXMl;1920x1080/frame(1).mp4" type="video/mp4">
+    </video>
+
+    <div class="container" id="main-container">
+
+            <section class="row">
+                <div class="col-md-12" id="form">
+                    <form class="block form-horizontal">
+                        <h1 id="contact-header">CONTACT</h1>
+                    <br>
+                        <div class="form-group">
+                            <label for="name" class="col-sm-2 control-label">Name</label>
+                            <div class="col-sm-12">
+                            <input type="email" class="form-control" id="name" placeholder="Name">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-12">
+                            <input type="password" class="form-control" id="email" placeholder="Email">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="col-sm-12 control-label" for="msg">Message</label>
+                            <div class="col-sm-12">
+                            <textarea id="msg" class="form-control" rows="3" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <button class="submit-btn">Submit</button>
+                    </form>
+                </div>
+            </section>
+            
+
+    </div>
+
+    <!--Footer==========================================================================================================-->
+    
     <footer class="footer">
         <div class="two-toned-footer-color"></div>
         <p class="text-muted text-muted-footer text-center">
           &copy; Copyright 2020
         </p>
     </footer>
+
 
 
 
